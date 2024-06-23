@@ -1,0 +1,117 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1-div {
+  margin: 0 auto;
+  background-color: rgb(180, 102, 12);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.h1-div h1 {
+  color: rgb(28, 99, 34);
+  font-size: large;
+  letter-spacing: 10px;
+}
+.h1-div::first-letter {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.h1-div::after {
+  content: "";
+  display: block;
+  border-radius: 100px;
+  border-bottom: 5px rgb(6, 75, 179) solid;
+}
+
+.form-div {
+  width: 300px;
+}
+.form-div fieldset .h1-1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(241, 130, 130);
+  border-radius: 20px;
+  padding: 4px;
+}
+.form-div fieldset .h1-2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(241, 130, 130);
+  border-radius: 20px;
+  padding: 4px;
+}
+.form-div fieldset .h1-3 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(241, 130, 130);
+  border-radius: 20px;
+  padding: 4px;
+}
+.form-div fieldset .h1-4 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(241, 130, 130);
+  border-radius: 20px;
+  padding: 4px;
+}
+.form-div fieldset .h1-5 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(241, 130, 130);
+  border-radius: 20px;
+  padding: 4px;
+}
+.form-div fieldset legend {
+  color: #793c11;
+}
+.form-div fieldset input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button:last-child {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+button:last-child:hover {
+  background-color: lightblue;
+  color: black;
+}
+button:last-child:active {
+  box-shadow: inset 4px 4px 4px 4px black;
+}
+
+.your-informations p {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
+.your-informations button {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+.your-informations button:hover {
+  background-color: rgb(253, 74, 74);
+  color: black;
+}
+.your-informations button:active {
+  box-shadow: inset 4px 4px 4px 4px black;
+}/*# sourceMappingURL=main.css.map */
